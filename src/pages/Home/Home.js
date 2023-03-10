@@ -1,9 +1,10 @@
 import React from 'react';
+import CommingSoon from '../../shared/CommingSoon/CommingSoon';
 
 const Home = () => {
     return (
         <div>
-            <h2 className='text-orange-500 text-2xl '> This is the home page</h2>
+          <CommingSoon></CommingSoon>
 
         </div>
     );
